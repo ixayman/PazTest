@@ -1,0 +1,171 @@
+.clear-box
+{
+	clear:both;
+	overflow: hidden;
+}
+header
+{
+	 height: 65px;
+	background-color:grey;
+	width: auto !important;
+}
+header form 
+{
+	background:grey;
+	float:left;
+	margin-right:10px;
+}
+#list
+{
+	direction:rtl;
+}
+#list ul 
+{
+	list-style:none;
+	margin-top:30px;
+	width:100%;
+}
+#list ul li
+{
+	float:right;
+	padding-right: 4%;
+}
+#logo img
+{
+	float:right;
+	margin-top:-40px;
+}
+.content div
+{
+	margin-top: 40px;
+    margin-left: 2%;
+    float: right;
+    width: 30%;
+    height: 354px;
+}
+.content div div
+{
+	width:100%;
+}
+#back1
+{
+	background-image:url(imgs/1908364606615453350.JPG);
+}
+#back1 div
+{
+	margin-right: 2%;
+	margin-top: 250px;
+	direction:rtl;
+	height: 97px;
+    width: 92% !important;
+	background-image:url(imgs/hp_tab_text_bg.png);
+}
+#back2
+{
+	background-image:url(imgs/Picture-046410251500.jpg);
+}
+
+#back2 div
+{
+	margin-right: 2%;
+	margin-top: 250px;
+	direction:rtl;
+	height: 97px;
+    width: 92% !important;
+	background-image:url(imgs/hp_tab_text_bg.png);
+}
+
+#back3
+{
+	background-image:url(imgs/lasts.jpg);
+}
+#back3 div
+{
+	margin-right: 2%;
+	margin-top: 250px;
+	direction:rtl;
+	height: 97px;
+    width: 92% !important;
+	background-image:url(imgs/hp_tab_text_bg.png);
+}
+
+.sub
+{
+	margin-top: 40px;
+    margin-left: 2%;
+  
+    
+   
+}
+.sub1
+{
+	background-image:url(imgs/small_cube_bg.png);
+	height: 216px;
+    width: 32%;
+    float: right;
+    margin-top: 50px;
+    margin-left: 1%;
+	 
+}
+
+.sub1 div:first-child
+{
+	margin-bottom: 20px;
+    padding-top: 10px;
+    direction: rtl;
+}
+
+.sub1 div:nth-child(2)
+{
+	    margin-left: 4%;
+}
+.sub1 div:last-child
+{
+	margin-top:20px;
+	margin-left:10%;
+}
+
+#sub2
+{
+		background-image:url(imgs/small_cube_bg.png);
+	height: 216px;
+    width: 32%;
+    float: right;
+    margin-top: 50px;
+    margin-left: 1%;
+	 
+}
+
+
+#sub2 div:first-child
+{
+	margin-bottom: 20px;
+    padding-top: 10px;
+    direction: rtl;
+}
+#sub2 div:nth-child(2)
+{
+	float:right;
+	
+}
+#sub2 ul
+{
+	list-style: none;
+}
+
+footer
+{
+	margin-top:50px;
+	background-color:url(imgs/footer_bg.png);
+	
+}
+footer ul
+{
+	list-style: none;
+}
+footer ul li
+{
+	float: right;
+	margin-right:3%;
+	    margin-top: 100px;
+}
