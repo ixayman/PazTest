@@ -1,10 +1,12 @@
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width" />
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 		<meta charset="UTF-8"/>
 	</head>
-	<body>
-		<div style="max-width: 900; margin:0 auto;">
+	<body style="margin:0;">
+		<div id="topback"></div>
+		<div style="max-width: 900; margin:0 auto; height: 850px;">
 		<header>
 			<div>
 				<form>
@@ -14,18 +16,73 @@
 			</div>
 			<div>
 				<div id="logo">
-					<img src="imgs/paz_logo.png"/>
 				</div>
 				<div id="list">
 					<ul>
-						<li><img src="imgs/menu_home.png"></li>
-						<li>about</li>
-						<li>asdasdasd</li>
-						<li>adgfdg</li>
-						<li>dgfdsgsdfg</li>
-						<li>sdihfdsa</li>
-						<li>jeifwuh</li>
-						<li>rghsdhfsdf</li>
+						<li><a href="#"><img src="imgs/menu_home.png"></a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">אודות</a>
+							<ul>
+								<li><a href="#">אודות</a></li>
+								<li><a href="#">היסטוריה</a></li>
+								<li><a href="#">חזון וערכים</a></li>
+								<li><a href="#">מבנה הקבוצה</a></li>
+								<li><a href="#">חברי דירקטוריון</a></li>
+								<li><a href="#">הנהלת הקבוצה</a></li>
+								<li><a href="#">פרסים והוקרה</a></li>
+							</ul></li>
+							<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">חטיבות</a>
+							<ul>
+								<li><a href="#">חטיבות</a></li>
+								<li><a href="#">קמעונאות ומסחר</a></li>
+								<li><a href="#">תעשיות ושירותים</a></li>
+								<li><a href="#">זיקוק</a></li>
+								
+							</ul></li>
+							<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">אחריות תאגידית</a>
+							<ul>
+								<li><a href="#">אחריות תאגידית</a></li>
+								<li><a href="#">הקוד האתי</a></li>
+								<li><a href="#">מעורבות חברתית</a></li>
+								<li><a href="#">נגישות</a></li>
+								<li><a href="#">איכות הסביבה ובטיחות</a></li>
+								<li><a href="#">דירוג מעלה</a></li>
+								
+							</ul></li>
+							<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">קשרי משקיעים</a>
+							<ul>
+								<li><a href="#">פרופיל חברה</a></li>
+								<li><a href="#">דו"חות כספיים</a></li>
+								<li><a href="#">כלים להשקיע</a></li>
+								<li><a href="#">נתוני מניה</a></li>
+								<li><a href="#">אסיפות כלליות</a></li>
+								
+							</ul></li>
+							<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">התחנות שלנו</a>
+							<ul>
+								<li><a href="#">התחנות שלנו</a></li>
+								<li><a href="#">רשימת תחנות</a></li>
+								<li><a href="#">מועדונים</a></li>
+								
+							</ul></li>
+							<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">קריירה</a>
+							<ul>
+								<li><a href="#">לעבוד בפז</a></li>
+								<li><a href="#">ניהול תחנת פז</a></li>
+								<li><a href="#">קריירה</a></li>
+								
+							</ul></li>
+							<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">חדשות ומדיה</a>
+							<ul>
+								<li><a href="#">פרסומות</a></li>
+								<li><a href="#">הודעות לעיתונות</a></li>
+							</ul></li>
 					</ul>
 					
 				</div>
@@ -34,22 +91,25 @@
 				<div class="clear-box"></div>
 				</header>
 				<div class="content">
-					<div id="back1" style="margin-right: -193px;">
+					<div id="back1">
 						<div>
-						קמעונאות ומסחר</br>
-במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...
+						<p class="h1">קמעונאות ומסחר</p>
+<p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
+<p style="margin-top: -15px;"><a href="#"><img src="imgs/read_more_white.png"/> קרא עוד </a></p>
 						</div>
 					</div>
 					<div id="back2">
 						<div>
-							זיקוק</br>
-פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...
+							<p class="h1">זיקוק</p>
+<p>פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...</p>
+<p><a href="#"><img src="imgs/read_more_white.png"/> קרא עוד </a></p>
 						</div>
 					</div>
 					<div id="back3">
 						<div>
-							תעשיות ושירותים</br>
-תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...
+							<p class="h1">תעשיות ושירותים</p>
+<p>תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...</p>
+<p><a href="#"><img src="imgs/read_more_white.png"/> קרא עוד </a></p>
 						</div>
 					</div>
 				</div>
@@ -68,9 +128,9 @@
 					<div>התחנות שלנו בדרך שלך</div>
 					<div>
 						<ul>
-							<li><a href="#">צפון</a></li>
-							<li><a href="#">מרכז</a></li>
-							<li><a href="#">דרום</a></li>
+							<li><a href="#"><img src="imgs/read_more_yellow.png"/> צפון </a></li>
+							<li><a href="#"><img src="imgs/read_more_yellow.png"/> מרכז </a></li>
+							<li><a href="#"><img src="imgs/read_more_yellow.png"/> דרום </a></li>
 						</ul>
 						<div class="clear-box"></div>
 					</div>
@@ -82,19 +142,31 @@
 
 					<ul>
 						<li><img src="imgs/fb_icon.png"/></li>
-						<li>sdfsdf</li>
-						<li>fkfgjfghj</li>
-						<li>dasfasdfas</li>
-						<li>fwqegeg</li>
-						<li>radgsdfb</li>
-						<li>wfwef4wgf</li>
-						<li>efargadg</li>
-						<li>aergewrtg</li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">-</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">עמוד הבית</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">מחירונים</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">קריירה</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">תנאי שימוש</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">נגישות</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">מפת אתר</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">צור קשר</a></li>
+						<li><img src="imgs/menu_sep.png"/></li>
+						<li><a href="#">הודעות והליכים משפטיים</a></li>
+						<li id="mccanna"><a href="#"><img src="imgs/white_logo.png"></a></li>
 					</ul>
 				</div>
 				
 			</footer>
 		
 		</div>
+		<div id="bottomback"></div>
 	</body>
 </html>

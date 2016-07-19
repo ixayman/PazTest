@@ -3,15 +3,20 @@
 	clear:both;
 	overflow: hidden;
 }
+#topback
+{
+	margin: 0 0 -75px 0;
+	background-image: url(imgs/header_bg.png) ;
+	height: 100px;
+    width: 100%;
+}
 header
 {
 	 height: 65px;
-	background-color:grey;
 	width: auto !important;
 }
 header form 
 {
-	background:grey;
 	float:left;
 	margin-right:10px;
 }
@@ -28,17 +33,58 @@ header form
 #list ul li
 {
 	float:right;
-	padding-right: 4%;
+	padding-right: 2%;
 }
-#logo img
+#list ul a
 {
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+}
+#list ul a:hover
+{
+	color:blue;
+	text-decoration:underline;
+}
+#list ul ul
+{
+	display:none;
+	position: absolute;
+	background-image: url(imgs/menu_dropdown_bg.png);
+	padding:0;
+	width: 12%;
+    margin-top: 0;
+}
+#list ul li:hover > ul
+{
+	display: list-item;
+}
+#list ul li li
+{
+	float:none;
+	dosblay:inline-block;
+	padding:10px 0 0 0;
+}
+#list ul li li:hover
+{
+	background-color: #c0c1c0;
+}
+#logo 
+{
+	background-image: url(imgs/paz_logo.png);
 	float:right;
-	margin-top:-40px;
+	height: 85px;
+    width: 135px;
+    margin-top: -43px;
+}
+.content
+{
+	margin-top: 40px;
 }
 .content div
 {
-	margin-top: 40px;
-    margin-left: 2%;
+	
+    margin-left: 5%;
     float: right;
     width: 30%;
     height: 354px;
@@ -46,6 +92,32 @@ header form
 .content div div
 {
 	width:100%;
+}
+.content p
+{
+	margin:0;
+	color: white;
+	padding-top:4px;
+	padding-right:4px;
+	font-size:14px;
+}
+.content p:last-child
+{
+	float:left;
+	margin-left: 5px;
+}
+.content p a
+{
+	color:white;
+}
+.content p a:hover
+{
+	color:blue;
+}
+.h1
+{
+	font-size:16px !important;
+	font-weight:bold;
 }
 #back1
 {
@@ -77,6 +149,7 @@ header form
 
 #back3
 {
+	margin-left:0;
 	background-image:url(imgs/lasts.jpg);
 }
 #back3 div
@@ -151,6 +224,7 @@ header form
 #sub2 ul
 {
 	list-style: none;
+	    margin-right: 20px;
 }
 
 footer
@@ -166,6 +240,34 @@ footer ul
 footer ul li
 {
 	float: right;
-	margin-right:3%;
-	    margin-top: 100px;
+	margin-right:0.65%;
+	 margin-top: 100px;
+}
+#mccanna
+{
+	float:left !important;
+}
+footer ul a
+{
+	color:white;
+}
+footer ul a:hover
+{
+	color:blue;
+}
+#bottomback
+{
+	background-image: url(imgs/footer_bg.png);
+	height: 38px;
+    width: 100%;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 600px)
+{
+	#list ul
+	{
+		display:none !important;
+	}
+
 }
