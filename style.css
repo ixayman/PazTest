@@ -81,7 +81,7 @@ header form
 {
 	margin-top: 40px;
 }
-.content div
+.content div div
 {
 	
     margin-left: 5%;
@@ -89,7 +89,7 @@ header form
     width: 30%;
     height: 354px;
 }
-.content div div
+.content div div div
 {
 	width:100%;
 }
@@ -267,7 +267,7 @@ footer ul a:hover
 {
 	#list ul
 	{
-		display:none !important;
+		display:none;
 	}
-
+	
 }
